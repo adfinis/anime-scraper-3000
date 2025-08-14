@@ -1,5 +1,5 @@
 function fetchData() {
-  var response = fetch("https://api.jikan.moe/v4/anime");
+  var response = fetch("https://api.jikan.moe/v4/anime?sfw=true");
   return response.json().data;
 }
 
